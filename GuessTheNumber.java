@@ -9,7 +9,7 @@ public class GuessTheNumber {
         Scanner scanner = new Scanner(System.in);
         int guess = 0;
 
-        System.out.println("Welcome to the Number Guessing Game!");
+        System.out.println("Welcome to the Number Guessing Game");
         System.out.println("I'm thinking of a number between 1 and 100. Try to guess it!");
 
         while (guess != numberToGuess) {
